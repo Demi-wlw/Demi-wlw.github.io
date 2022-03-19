@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Luwei Wang
 ---
 
 # About me
