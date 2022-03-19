@@ -9,3 +9,7 @@ I'm currently a postgraduate student studying in MSc Statistics with Data Scienc
 
 > [CV](./files/CV_Luwei_Wang.pdf)   
 > [GitHub](https://github.com/Demi-wlw)
+
+# Selected Projects
+1. Academic paper search engine
+2. Flight delay prediction
