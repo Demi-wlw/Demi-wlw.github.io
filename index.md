@@ -7,5 +7,5 @@ I'm currently a postgraduate student studying in MSc Statistics with Data Scienc
 
 ## Personal Links
 
-> [CV](./files/CV_Luwei_Wang.pdf)               
+> [CV](./files/CV_Luwei_Wang.pdf)         
 > [GitHub](https://github.com/Demi-wlw)
