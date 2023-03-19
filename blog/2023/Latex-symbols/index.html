@@ -8,6 +8,11 @@
     
     <!-- Website verification -->
     <meta name="google-site-verification" content="2AXgTeXWVW_0injIR91zWl2Dz2AJyUT9xr667wSGOcY">
+<!-- Avoid warning on Google Chrome
+        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+        see https://stackoverflow.com/a/75119417
+    -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
