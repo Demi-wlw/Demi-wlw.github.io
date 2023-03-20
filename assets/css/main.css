@@ -879,6 +879,10 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   color: var(--global-hover-color) !important;
 }
 
+d-related-posts {
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   d-article d-contents {
     display: block;
