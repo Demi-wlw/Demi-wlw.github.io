@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://demi-wlw.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://demi-wlw.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-20T15:24:57+00:00</updated><id>https://demi-wlw.github.io/feed.xml</id><title type="html">blank</title><subtitle>Luwei Wang&apos;s personal homepage.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://demi-wlw.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://demi-wlw.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-20T16:37:00+00:00</updated><id>https://demi-wlw.github.io/feed.xml</id><title type="html">blank</title><subtitle>Luwei Wang&apos;s personal homepage.
 </subtitle><entry><title type="html">Understanding ChatGPT</title><link href="https://demi-wlw.github.io/blog/2023/ChatGPT/" rel="alternate" type="text/html" title="Understanding ChatGPT" /><published>2023-03-19T00:00:00+00:00</published><updated>2023-03-19T00:00:00+00:00</updated><id>https://demi-wlw.github.io/blog/2023/ChatGPT</id><content type="html" xml:base="https://demi-wlw.github.io/blog/2023/ChatGPT/"><![CDATA[<p class="text-justify">OpenAI is back in the headlines with news that it is updating its viral ChatGPT with a new version called <a href="https://openai.com/research/gpt-4">GPT-4</a>. If ChatGPT is the car, then GPT-4 is the engine: a powerful general technology that can be shaped down to a number of different uses. GPT-3 and now 4 are actually the internet’s best-known language-processing AI models.</p>
 
 <h2 id="what-is-chatgpt">What is ChatGPT?</h2>
@@ -73,7 +73,32 @@ by Generative Pre-Training”.</li>
     </div>
 </div>
 
+<p class="text-justify"><strong>GPT-3</strong> was applied with tasks and few-shot demonstrations specified purely via text interaction with the model. Since fine-tuning involves updating the weights of a pre-trained model by training on a supervised dataset specific to the desired task, it typically requires thousands to hundreds of thousands of labeled examples. However, the main disadvantages are the need for a new large dataset for every task, the potential for poor generalization out-of-distribution, and the potential to exploit spurious features of the training data, potentially resulting in an unfair comparison with human performance.</p>
+
 <h3 id="few-shot-learning">Few-shot learning</h3>
+
+<p class="text-justify">Few-Shot is the term referring to the setting where the model is given a few demonstrations of the task at inference time as conditioning, but no weight updates are allowed. <em>Few-shot learning</em> involves learning based on a broad distribution of tasks (in this case implicit in the pre-training data) and then rapidly adapting to a new task. The primary goal in traditional Few-Shot frameworks is to learn a similarity function that can map the similarities between the classes in the support and query sets. Figure 2.1 illustrates different settings, from which we see for a typical dataset an example has a context and a desired completion (for example an English sentence and the French translation), and few-shot works by giving \(K\) examples of context and completion, and then one final example of context, with the model expected to provide the completion. The main advantages of few-shot are a major reduction in the need for task-specific data and reduced potential to learn an overly narrow distribution from a large but narrow fine-tuning dataset. The main disadvantage is that results from this method have so far been much worse than state-of-the-art fine-tuned models. Also, a small amount of task specific data is still required.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/GPT3_fewShot-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/GPT3_fewShot-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/GPT3_fewShot-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/GPT3_fewShot.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="GPT-3 Few-Shot learning" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
 
 <hr />
 
