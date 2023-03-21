@@ -236,10 +236,12 @@
 by Generative Pre-Training”.</li>
   <li>GPT-2 is open-source <a href="https://openai.com/research/better-language-models" rel="external nofollow noopener" target="_blank">here</a> with paper “Language Models are Unsupervised Multitask Learners”.</li>
   <li>GPT-3 has published paper <d-cite key="GPT-3"></d-cite>.</li>
-  <li>There are several open-source GPT alternatives such as <a href="https://github.com/facebookresearch/llama" rel="external nofollow noopener" target="_blank">LLaMA</a> by Meta AI with paper<d-cite key="touvron2023llama"></d-cite>.</li>
+  <li>There are several open-source GPT alternatives such as <a href="https://github.com/facebookresearch/llama" rel="external nofollow noopener" target="_blank">LLaMA</a> by Meta AI with paper <d-cite key="touvron2023llama"></d-cite>.</li>
 </ul>
 
-<p class="text-justify"><strong>The first version of GPT</strong> was introduced based on the ideas of transformers<d-footnote>A good website for detailed learning can be found <a href="https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html#transformer_intro" rel="external nofollow noopener" target="_blank">here</a> <d-cite key="voita2020nlpCourse"></d-cite>.</d-footnote> and <a href="https://arxiv.org/abs/1511.01432" rel="external nofollow noopener" target="_blank">unsupervised pre-training</a>. Its results provide a convincing example that pairing supervised learning methods with unsupervised pre-training works very well. In summary, GPT as the name suggested, adopts <strong><em>generative pre-training</em></strong> of a language model on a diverse corpus of unlabeled text, followed by discriminative <strong><em>supervised fine-tuning</em></strong> on each specific task.</p>
+<blockquote class="text-justify">
+  <p>The first version of GPT was introduced based on the ideas of transformers<d-footnote>A good website for detailed learning can be found <a href="https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html#transformer_intro" rel="external nofollow noopener" target="_blank">here</a> <d-cite key="voita2020nlpCourse"></d-cite>.</d-footnote> and <a href="https://arxiv.org/abs/1511.01432" rel="external nofollow noopener" target="_blank">unsupervised pre-training</a>. Its results provide a convincing example that pairing supervised learning methods with unsupervised pre-training works very well. In summary, GPT as the name suggested, adopts <strong><em>generative pre-training</em></strong> of a language model on a diverse corpus of unlabeled text, followed by discriminative <strong><em>supervised fine-tuning</em></strong> on each specific task.</p>
+</blockquote>
 
 <h3 id="generative-pre-training">Generative pre-training</h3>
 
@@ -284,7 +286,9 @@ by Generative Pre-Training”.</li>
     </div>
 </div>
 
-<p class="text-justify"><strong>GPT-3</strong> was applied with tasks and <strong><em>few-shot</em></strong> demonstrations specified purely via text interaction with the model. Since fine-tuning involves updating the weights of a pre-trained model by training on a supervised dataset specific to the desired task, it typically requires thousands to hundreds of thousands of labeled examples. However, the main disadvantages are the need for a new large dataset for every task, the potential for poor generalization out-of-distribution, and the potential to exploit spurious features of the training data, potentially resulting in an unfair comparison with human performance.</p>
+<blockquote class="text-justify">
+  <p>GPT-3 was applied with tasks and <strong><em>few-shot</em></strong> demonstrations specified purely via text interaction with the model. Since fine-tuning involves updating the weights of a pre-trained model by training on a supervised dataset specific to the desired task, it typically requires thousands to hundreds of thousands of labeled examples. However, the main disadvantages are the need for a new large dataset for every task, the potential for poor generalization out-of-distribution, and the potential to exploit spurious features of the training data, potentially resulting in an unfair comparison with human performance.</p>
+</blockquote>
 
 <h3 id="few-shot-learning">Few-shot learning</h3>
 
