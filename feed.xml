@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://demi-wlw.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://demi-wlw.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-09T07:18:45+00:00</updated><id>https://demi-wlw.github.io/feed.xml</id><title type="html">blank</title><subtitle>Luwei Wang&apos;s personal homepage.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://demi-wlw.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://demi-wlw.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-09T07:23:08+00:00</updated><id>https://demi-wlw.github.io/feed.xml</id><title type="html">blank</title><subtitle>Luwei Wang&apos;s personal homepage.
 </subtitle><entry><title type="html">Understanding ChatGPT</title><link href="https://demi-wlw.github.io/blog/2023/ChatGPT/" rel="alternate" type="text/html" title="Understanding ChatGPT" /><published>2023-03-19T00:00:00+00:00</published><updated>2023-03-19T00:00:00+00:00</updated><id>https://demi-wlw.github.io/blog/2023/ChatGPT</id><content type="html" xml:base="https://demi-wlw.github.io/blog/2023/ChatGPT/"><![CDATA[<p class="text-justify">OpenAI is back in the headlines with news that it is updating its viral ChatGPT with a new version called <a href="https://openai.com/research/gpt-4">GPT-4</a>. If ChatGPT is the car, then GPT-4 is the engine: a powerful general technology that can be shaped down to a number of different uses. GPT-3 and now 4 are actually the internet’s best-known language-processing AI models.</p>
 
 <h2 id="what-is-chatgpt">What is ChatGPT?</h2>
@@ -123,7 +123,7 @@ by Generative Pre-Training”.</li>
 
 <h2 id="limitations-of-generative-ai">Limitations of Generative AI</h2>
 
-<ul>
+<ul class="text-justify">
   <li>Generative AI tools are language machines rather than databases of knowledge –
 they work by predicting the next plausible word or section of programming code
 from patterns that have been ‘learnt’ from large data sets;</li>
@@ -148,7 +148,7 @@ inaccurate or misleading content;</li>
 from human authors without referencing them, which we would consider as
 plagiarism;</li>
   <li>There are risks of copyright infringements on pictures and other copyrighted
-material.
-    <h4 id="referance-the-university-of-edinburgh">Referance: <a href="https://www.ed.ac.uk/academic-services/students/conduct/academic-misconduct/what-is-academic-misconduct">The University of Edinburgh</a></h4>
-  </li>
-</ul>]]></content><author><name>Luwei Wang</name></author><category term="site-posts" /><category term="machine-learning/AI" /><category term="NLP" /><category term="application" /><summary type="html"><![CDATA[a summary of ChatGPT and GPT techniques]]></summary></entry><entry><title type="html">Summary of Latex code for symbols</title><link href="https://demi-wlw.github.io/blog/2023/Latex-symbols/" rel="alternate" type="text/html" title="Summary of Latex code for symbols" /><published>2023-03-10T00:00:00+00:00</published><updated>2023-03-10T00:00:00+00:00</updated><id>https://demi-wlw.github.io/blog/2023/Latex-symbols</id><content type="html" xml:base="https://demi-wlw.github.io/blog/2023/Latex-symbols/"><![CDATA[]]></content><author><name></name></author><category term="site-posts" /><category term="code" /><summary type="html"><![CDATA[Redirecting to a pdf]]></summary></entry></feed>
+material.</li>
+</ul>
+
+<h4 id="referance-the-university-of-edinburgh">Referance: <a href="https://www.ed.ac.uk/academic-services/students/conduct/academic-misconduct/what-is-academic-misconduct">The University of Edinburgh</a></h4>]]></content><author><name>Luwei Wang</name></author><category term="site-posts" /><category term="machine-learning/AI" /><category term="NLP" /><category term="application" /><summary type="html"><![CDATA[a summary of ChatGPT and GPT techniques]]></summary></entry><entry><title type="html">Summary of Latex code for symbols</title><link href="https://demi-wlw.github.io/blog/2023/Latex-symbols/" rel="alternate" type="text/html" title="Summary of Latex code for symbols" /><published>2023-03-10T00:00:00+00:00</published><updated>2023-03-10T00:00:00+00:00</updated><id>https://demi-wlw.github.io/blog/2023/Latex-symbols</id><content type="html" xml:base="https://demi-wlw.github.io/blog/2023/Latex-symbols/"><![CDATA[]]></content><author><name></name></author><category term="site-posts" /><category term="code" /><summary type="html"><![CDATA[Redirecting to a pdf]]></summary></entry></feed>
