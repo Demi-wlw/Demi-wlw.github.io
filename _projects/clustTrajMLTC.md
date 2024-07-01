@@ -34,7 +34,7 @@ Moreover, it can also help clinicians to diagnose appropriately. All in all, it 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/MLTC_causal_infer.png" title="MLTC causal relationships" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/MLTC_causal_infer.png" title="MLTC causal relationships" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

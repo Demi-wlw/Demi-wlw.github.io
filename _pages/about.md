@@ -8,7 +8,7 @@ profile:
   align: right
   image: person_pic.jpg
   image_circular: true # crops the image to make it circular
-  address: >
+  more_info: >
     <p>PhD student in Biomedical AI</p>
     <p>The University of Edinburgh</p>
 

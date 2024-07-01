@@ -20,7 +20,7 @@ Therefore, in this project, we evaluate this hypothesis by assessing a collectio
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/supClust1.png" title="data-intensive plot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/supClust1.png" title="data-intensive plot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -33,13 +33,13 @@ The advantage of using supervised clustering methods is to use the labels of out
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/supClust2.png" title="PCA contribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/supClust2.png" title="PCA contribution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/supClust4.png" title="odds ratio plot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/supClust4.png" title="odds ratio plot" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/supClust3.png" title="biomarkers radar plot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/supClust3.png" title="biomarkers radar plot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
