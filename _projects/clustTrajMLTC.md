@@ -5,7 +5,6 @@ description: Master's dissertation at the University of Edinburgh
 img: assets/img/trajClust.png
 importance: 2
 category: UoE
-#github: https://github.com/Demi-wlw/Clustering-Multimorbidity-Trajectories
 ---
 
 ### Project Description
