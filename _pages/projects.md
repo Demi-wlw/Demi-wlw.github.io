@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: The collection of my projects.
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [UoE]
 horizontal: true
 ---
