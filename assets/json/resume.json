@@ -22,25 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Data Science Unit, School of Informatics, University of Edinburgh",
-      "position": "Research Assistant",
-      "url": "https://web.inf.ed.ac.uk/data-science-unit",
-      "startDate": "2022-10-01",
-      "endDate": "2023-04-31",
-      "summary": "Undertook the Turing project: <a href='https://demi-wlw.github.io/projects/supervisedClust/'>Supervised clustering of critically ill patients</a>.",
-      "highlights": ["Supervised clustering"]
-    },
-    {
-      "name": "Census and Statistics Department, Hong Kong Government",
-      "position": "Intern",
-      "url": "https://www.censtatd.gov.hk/sc/",
-      "startDate": "2019-06-01",
-      "endDate": "2019-07-01",
-      "summary": "Analyzed the current and forecast expenditure of annual training programs in Hong Kong."
-    }
-  ],
   "education": [
     {
       "institution": "School of Informatics, University of Edinburgh",
@@ -100,6 +81,25 @@
       "awarder": "Simon Marais Mathematics Competition",
       "url": "https://www.simonmarais.org/20192.html",
       "summary": ""
+    }
+  ],
+  "work": [
+    {
+      "name": "Data Science Unit, School of Informatics, University of Edinburgh",
+      "position": "Research Assistant",
+      "url": "https://web.inf.ed.ac.uk/data-science-unit",
+      "startDate": "2022-10-01",
+      "endDate": "2023-04-31",
+      "summary": "Undertook the Turing project: <a href='https://demi-wlw.github.io/projects/supervisedClust/'>Supervised clustering of critically ill patients</a>.",
+      "highlights": ["Supervised clustering"]
+    },
+    {
+      "name": "Census and Statistics Department, Hong Kong Government",
+      "position": "Intern",
+      "url": "https://www.censtatd.gov.hk/sc/",
+      "startDate": "2019-06-01",
+      "endDate": "2019-07-01",
+      "summary": "Analyzed the current and forecast expenditure of annual training programs in Hong Kong."
     }
   ],
   "skills": [
