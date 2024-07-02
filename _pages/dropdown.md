@@ -4,10 +4,10 @@ title: More
 nav: false
 nav_order: 6
 dropdown: true
-children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+children:
+  - title: Publications
+    permalink: /publications/
+  - title: divider
+  - title: Projects
+    permalink: /projects/
 ---
