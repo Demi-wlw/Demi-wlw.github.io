@@ -48,7 +48,7 @@
       "url": "https://web.inf.ed.ac.uk/cdt/biomedical-ai",
       "area": "",
       "studyType": "PhD in Biomedical AI",
-      "startDate": "2023-09-01",
+      "startDate": "2023",
       "endDate": "",
       "score": ""
     },
@@ -58,8 +58,8 @@
       "url": "https://www.maths.ed.ac.uk/school-of-mathematics",
       "area": "",
       "studyType": "MSc in Statistics with Data Science",
-      "startDate": "2021-09-01",
-      "endDate": "2022-08-31",
+      "startDate": "2021",
+      "endDate": "2022",
       "score": "Distinction",
       "courses": ["Grade: Distinction", "Dissertation: <a href='https://demi-wlw.github.io/projects/clustTrajMLTC/'>Understanding and Clustering Trajectories of Multiple Long-Term Conditions</a>", "Supervisor: Dr Sohan Seth"]
     },
@@ -69,8 +69,8 @@
       "url": "https://www.math.hkbu.edu.hk/index.html",
       "area": "",
       "studyType": "BSc (Honours) in Mathematics and Statistics, Minor in Computer Science",
-      "startDate": "2017-09-01",
-      "endDate": "2021-08-31",
+      "startDate": "2017",
+      "endDate": "2021",
       "score": "First Class",
       "courses": ["Grade: First Class", "Final Year Project: Mathematical Trading Model Based on Improved MACD for Stock Market", "Supervisor: Prof. Lizhi Liao"]
     }
