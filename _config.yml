@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Luwei
 middle_name:
 last_name: Wang (Demi)
-email: demi.lw.wang@gmail.com
+email: luwei.wang@ed.ac.uk #demi.lw.wang@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Luwei Wang's personal homepage.
 footer_text: >
@@ -86,7 +86,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # your LinkedIn user name
+linkedin_username: luwei-demi-wang # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
