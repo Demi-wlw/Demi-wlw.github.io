@@ -126,7 +126,7 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: 2AXgTeXWVW_0injIR91zWl2Dz2AJyUT9xr667wSGOcY # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # your bing-site-verification ID (Bing Webmaster)
+bing_site_verification: # your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -628,7 +628,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: #assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
   - work
