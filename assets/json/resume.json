@@ -161,13 +161,15 @@
       "organization": "HKBU Mathematics Society",
       "location": "Hong Kong, China",
       "position": "Finance Secretary",
-      "date": "2018-10-01"
+      "startDate": "2018-10-01",
+      "endDate": "2018-10-01"
     },
     {
       "organization": "2018 Hong Kong Cyclothon",
       "location": "Hong Kong, China",
       "position": "Student Ambassador",
-      "date": "2018-09-01"
+      "startDate": "2018-09-01",
+      "endDate": "2018-09-01"
     }
   ]
 }
