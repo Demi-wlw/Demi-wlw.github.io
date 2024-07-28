@@ -17,7 +17,7 @@ As a result, it is advocated that implementing targeted approaches to prevent or
 {: .text-justify}
 
 Many works have been done in the cross-sectional analysis of multimorbidity but less attention is paid to the longitudinal analysis of patients' disease trajectories, which should take the temporal influences of conditions development into account.
-Furthermore, in the methods of longitudinal analysis of disease trajectories, there is also an evident lack of studies focusing on the order and sequencing of diseases [(Cezard et al., 2021)](https://bmjopen.bmj.com/content/11/11/e048485).
+Furthermore, in the methods of longitudinal analysis of disease trajectories, there is also an evident lack of studies focusing on the order and sequencing of diseases [(Cezard et al., 2021)](https://pubmed.ncbi.nlm.nih.gov/34810182/).
 Therefore, the objective of this project is to utilize the temporal clustering methods to explore the progressive procedure of disease trajectories and find meaningful clusters of individual trajectories that are highly related to the outcomes of interest such as mortality.
 Subsequently, it is also possible to identify the risk factors (eg. age, gender, behavior, etc.) correlated with the discovered patterns of trajectories, which helps society improve the quality of life by paying more attention to them.
 {: .text-justify}
