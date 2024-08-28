@@ -6,7 +6,7 @@
     "email": "demi.lw.wang@gmail.com",
     "phone": "",
     "url": "https://demi-wlw.github.io/",
-    "summary": "A PhD candidate in the School of Informatics at the University of Edinburgh. My research interests include Bayesian modelling, machine learning, and deep learning. I am currently working on the intersection of AI and healthcare.",
+    "summary": "A PhD candidate in the School of Informatics at the University of Edinburgh. My research interests include Bayesian modelling, unsupervised learning, causal machine learning and deep learning. I am currently working on the intersection of AI and healthcare.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -134,9 +134,10 @@
       "name": "Artificial Intelligence",
       "icon": "fa-brands fa-gratipay",
       "keywords": [
-        "Machine learning",
-        "Deep learning",
         "Bayesian modelling",
+        "Unsupervised learning",
+        "Causal machine learning",
+        "Deep learning",
         "Explainable AI",
         "Reinforcement learning"
       ]
@@ -144,16 +145,16 @@
   ],
   "references": [
     {
-      "name": "Professor Jacques Fleuriot",
-      "icon": "fa-solid fa-user",
-      "url": "https://aiml.inf.ed.ac.uk/people/",
-      "reference": "Artificial Intelligence Modelling Lab, University of Edinburgh"
-    },
-    {
       "name": "Dr Sohan Seth",
       "icon": "fa-solid fa-user",
       "url": "https://sohanseth.github.io/",
       "reference": "Data Science Unit, University of Edinburgh"
+    },
+    {
+      "name": "Professor Jacques Fleuriot",
+      "icon": "fa-solid fa-user",
+      "url": "https://aiml.inf.ed.ac.uk/people/",
+      "reference": "Artificial Intelligence Modelling Lab, University of Edinburgh"
     }
   ],
   "volunteer": [
