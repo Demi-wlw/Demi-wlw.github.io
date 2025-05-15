@@ -2,10 +2,10 @@
   "basics": {
     "name": "Luwei Wang",
     "label": "PhD candidate",
-    "image": "",
+    "UoE email": "luwei.wang@ed.ac.uk",
     "email": "demi.lw.wang@gmail.com",
     "phone": "",
-    "url": "https://demi-wlw.github.io/",
+    "url": "https://demi-wlw.github.io",
     "summary": "A PhD candidate in the School of Informatics at the University of Edinburgh. My research interests include Bayesian modelling, unsupervised learning, causal machine learning and deep learning. I am currently working on the intersection of AI and healthcare.",
     "location": {
       "address": "",
@@ -118,7 +118,7 @@
     {
       "name": "Tools",
       "level": "Master",
-      "icon": "fa-regular fa-screwdriver-wrench",
+      "icon": "fa-solid fa-screwdriver-wrench",
       "keywords": [
         "PyTorch", 
         "Stan",
