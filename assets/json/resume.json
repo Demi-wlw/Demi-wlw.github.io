@@ -95,7 +95,7 @@
     },
     {
       "name": "Census and Statistics Department, Hong Kong Government",
-      "position": "Intern",
+      "position": "Statistician Intern",
       "url": "https://www.censtatd.gov.hk/sc/",
       "startDate": "2019-06-01",
       "endDate": "2019-07-01",
@@ -112,7 +112,16 @@
         "R",
         "MATLAB",
         "SQL",
-        "JAVA",
+        "JAVA"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Master",
+      "icon": "fa-regular fa-screwdriver-wrench",
+      "keywords": [
+        "PyTorch", 
+        "Stan",
         "Latex"
       ]
     }
