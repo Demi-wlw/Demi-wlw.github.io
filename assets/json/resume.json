@@ -2,8 +2,7 @@
   "basics": {
     "name": "Luwei Wang",
     "label": "PhD candidate",
-    "UoE email": "luwei.wang@ed.ac.uk",
-    "email": "demi.lw.wang@gmail.com",
+    "email": "luwei.wang@ed.ac.uk",
     "phone": "",
     "url": "https://demi-wlw.github.io",
     "summary": "A PhD candidate in the School of Informatics at the University of Edinburgh. My research interests include Bayesian modelling, unsupervised learning, causal machine learning and deep learning. I am currently working on the intersection of AI and healthcare.",
