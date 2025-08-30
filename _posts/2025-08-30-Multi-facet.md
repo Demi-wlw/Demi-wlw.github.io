@@ -3,13 +3,15 @@ layout: distill
 title: The Real-World Data are Multi-faceted
 description: Motivation for interpretable AI/ML models
 date: 2025-08-30
-giscus_comments: true
 tags: machine-learning/AI
 categories: site-posts
+giscus_comments: true
 published: true
 thumbnail: assets/img/MF.icon.png
 featured: true
 pretty_table: true
+toc:
+  sidebar: left
 
 authors:
   - name: Luwei Wang
@@ -24,10 +26,10 @@ authors:
 #     for hyperlinks within the post to work correctly.
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
-toc:
-  - name: Why Multi-facet for Complex Data?
-  - name: What Is Multi-facet Clustering?
-  - name: How Is It Different to Multi-view and Multi-assignment Clustering?
+#toc:
+#  - name: Why Multi-facet for Complex Data?
+#  - name: What Is Multi-facet Clustering?
+#  - name: How Is It Different to Multi-view and Multi-assignment Clustering?
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
