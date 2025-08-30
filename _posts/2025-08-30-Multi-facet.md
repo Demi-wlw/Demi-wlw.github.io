@@ -69,7 +69,17 @@ Importantly, these characteristics are not directly observed but are meaningful 
 
 ## What is Multi-facet Clustering?
 
-Clustering is widely used in AI applications, however, traditional clustering methods are mainly what we call **single-facet clustering**. That is, they partition data by aggregating information from all characteristics/facets. The draw back is that we lose interpretability since we don't know explicitly which characteristics actually contribute to the clustering solution. 
+Clustering is widely used in AI applications, however, traditional clustering methods are mainly what we call **single-facet clustering**. That is, they partition data by aggregating information from all characteristics/facets. The draw back is that we lose interpretability since we don't know explicitly which characteristics actually contribute to the clustering solution. Instead by using multi-facet clustering, we can disentangle these characteristics/facets and partition data based on different facets separately and simultaneously.
+{: .text-justify}
+
+As illustrated by the following figure of difference between snigle-facet and multi-facet clustering, if each object has two characteristics driving them, the color and shape, then a single-facet clustering may only tell us there are clusters of blue-ducks and red-bears. However, Multi-facet clustering instead disentangles these into two independent facet clusters and reveals that there are three clusters in color and two clusters in shape. So each single cluster can be interpreted by facet-specific clusters.
+{: .text-justify}
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/IllusMF.png" title="Single-facet vs. Multi-facet Clustering" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Difference between Multi-view and Multi-assignment
 
