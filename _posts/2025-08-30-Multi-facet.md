@@ -78,7 +78,7 @@ As illustrated by the following figure comparing single-facet and multi-facet cl
 - A single-facet clustering might only reveal groups like *blue ducks* and *red bears*.
 - Multi-facet clustering, however, separates the characteristics and shows that there are **three clusters in color** and **two clusters in shape**.
 
-This way, each overall cluster can be interpreted in terms of its **facet-specific clusters**.
+This way, each overall cluster can be interpreted in terms of its **facet-specific clusters**. For more details, we refer to our work on a novel Bayesian multi-facet clustering model for longitudinal data, available here: [Wang et al., PMLR 2025](https://proceedings.mlr.press/v286/wang25c.html).
 {: .text-justify}
 
 <div class="row justify-content-sm-center">
@@ -89,4 +89,5 @@ This way, each overall cluster can be interpreted in terms of its **facet-specif
 
 ## How Is It Different to Multi-view and Multi-assignment Clustering?
 
-
+The concept of multi-facet clustering is distinct from *Multi-view* and *Multi-assignment* clustering. In multi-facet clustering, the input is data from a single cohort, and the outputs are multiple clustering solutions, each corresponding to a different facet. By contrast, in multi-view clustering, the input consists of multiple views of data for the same cohort, but the goal is to produce a *single integrated clustering solution* that combines all views. In multi-assignment clustering, the input is again data from a single cohort, but the output is a clustering solution on a single facet where each individual can belong to *multiple clusters simultaneously*.
+{: .text-justify}
