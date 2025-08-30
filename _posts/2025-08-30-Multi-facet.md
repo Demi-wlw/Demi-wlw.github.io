@@ -9,6 +9,7 @@ categories: site-posts
 published: true
 thumbnail: assets/img/MF.icon.png
 featured: true
+pretty_table: true
 
 authors:
   - name: Luwei Wang
@@ -89,5 +90,11 @@ This way, each overall cluster can be interpreted in terms of its **facet-specif
 
 ## How Is It Different to Multi-view and Multi-assignment Clustering?
 
-The concept of multi-facet clustering is distinct from *Multi-view* and *Multi-assignment* clustering. In multi-facet clustering, the input is data from a single cohort, and the outputs are multiple clustering solutions, each corresponding to a different facet. By contrast, in multi-view clustering, the input consists of multiple views of data for the same cohort, but the goal is to produce a *single integrated clustering solution* that combines all views. In multi-assignment clustering, the input is again data from a single cohort, but the output is a clustering solution on a single facet where each individual can belong to *multiple clusters simultaneously*.
+The concept of multi-facet clustering is distinct from *Multi-view* and *Multi-assignment* clustering, as shown in the following table. In multi-facet clustering, the input is data from a single cohort, and the outputs are multiple clustering solutions, each corresponding to a different facet. By contrast, in multi-view clustering, the input consists of multiple views of data for the same cohort, but the goal is to produce a *single integrated clustering solution* that combines all views. In multi-assignment clustering, the input is again data from a single cohort, but the output is a clustering solution on a single facet where each individual can belong to *multiple clusters simultaneously*.
 {: .text-justify}
+
+|      Method      |      Facet     |        Input         |       Output      |
+| :--------------: | :------------: | :------------------: | :---------------: |
+| Multi-facet      |    Multiple    | Single data matrix   | Multiple clusters |
+| Multi-view       |    Multiple    | Multiple data matrix | Single cluster    |
+| Multi-assignment |    Single      | Single data matrix   | Multiple clusters |
