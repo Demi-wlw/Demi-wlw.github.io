@@ -4,7 +4,7 @@ title: The Real-World Data are Multi-faceted
 description: 
 date: 2025-08-30
 giscus_comments: true
-tags: machine-learning/AI
+tags: Machine-learning/AI
 categories: site-posts
 published: true
 thumbnail: assets/img/MF.icon.png
@@ -25,8 +25,8 @@ authors:
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Why Multi-facet for Complex Data?
-  - name: What is Multi-facet Clustering?
-  - name: Difference between Multi-view and Multi-assignment Clustering?
+  - name: What Is Multi-facet Clustering?
+  - name: How Is It Different to Multi-view and Multi-assignment Clustering?
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -67,12 +67,18 @@ Importantly, these characteristics are not directly observed but are meaningful 
     </div>
 </div>
 
-## What is Multi-facet Clustering?
+## What Is Multi-facet Clustering?
 
-Clustering is widely used in AI applications, however, traditional clustering methods are mainly what we call **single-facet clustering**. That is, they partition data by aggregating information from all characteristics/facets. The draw back is that we lose interpretability since we don't know explicitly which characteristics actually contribute to the clustering solution. Instead by using multi-facet clustering, we can disentangle these characteristics/facets and partition data based on different facets separately and simultaneously.
+Clustering is widely used in AI applications. However, most traditional clustering methods are what we call **single-facet clustering**. That is, they partition data by aggregating information from all characteristics/facets. The draw back is that we **lose interpretability** since we don't know explicitly which characteristics actually contribute to the clustering solution. By contrast, **multi-facet clustering** can disentangle these characteristics/facets and partition data along different facets separately and simultaneously.
 {: .text-justify}
 
-As illustrated by the following figure of difference between snigle-facet and multi-facet clustering, if each object has two characteristics driving them, the color and shape, then a single-facet clustering may only tell us there are clusters of blue-ducks and red-bears. However, Multi-facet clustering instead disentangles these into two independent facet clusters and reveals that there are three clusters in color and two clusters in shape. So each single cluster can be interpreted by facet-specific clusters.
+As illustrated by the following figure comparing single-facet and multi-facet clustering. Suppose each object has two characteristics: *color* and *shape*.
+{: .text-justify}
+
+- A single-facet clustering might only reveal groups like *blue ducks* and *red bears*.
+- Multi-facet clustering, however, separates the characteristics and shows that there are **three clusters in color** and **two clusters in shape**.
+
+This way, each overall cluster can be interpreted in terms of its **facet-specific clusters**.
 {: .text-justify}
 
 <div class="row justify-content-sm-center">
@@ -81,6 +87,6 @@ As illustrated by the following figure of difference between snigle-facet and mu
     </div>
 </div>
 
-## Difference between Multi-view and Multi-assignment
+## How Is It Different to Multi-view and Multi-assignment Clustering?
 
 
