@@ -1,10 +1,10 @@
 ---
 layout: distill
 title: The Real-World Data are Multi-faceted
-description: 
+description: Motivation for interpretable AI/ML models
 date: 2025-08-30
 giscus_comments: true
-tags: Machine-learning/AI
+tags: machine-learning/AI
 categories: site-posts
 published: true
 thumbnail: assets/img/MF.icon.png
