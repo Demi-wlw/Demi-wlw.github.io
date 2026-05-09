@@ -4,7 +4,7 @@ title: Supervised Clustering of Critically Ill Patients
 description: Turing project
 img: assets/img/superClust.png
 importance: 1
-category: UoE
+category: Research
 ---
 
 ### Project Description

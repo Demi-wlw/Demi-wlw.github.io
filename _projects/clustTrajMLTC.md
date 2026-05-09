@@ -4,7 +4,7 @@ title: Clustering Individual Trajectories of Multiple Long-Term Conditions
 description: Master's dissertation at the University of Edinburgh
 img: assets/img/trajClust.png
 importance: 2
-category: UoE
+category: Research
 ---
 
 ### Project Description

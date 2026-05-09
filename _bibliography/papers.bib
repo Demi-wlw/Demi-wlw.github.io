@@ -1,6 +1,51 @@
 ---
 ---
 
+@inproceedings{Wang2026BASIL,
+  selected={true},
+  abbr={ICML},
+  bibtex_show={true},
+  title={Scalable Bayesian Semi-supervised Clustering with Feature Selection and Adaptive Constraint Weighting},
+  author={Luwei Wang and Dagmara Panas and Ke Wang and Sohan Seth and Bruce Guthrie},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  abstract={Constrained clustering incorporates prior knowledge in the form of pairwise constraints to guide data partitioning. While effective, existing Bayesian approaches are often limited in scalability to large datasets and provide weak interpretability due to the lack of explicit feature relevance modeling. We propose BASIL, a scalable Bayesian semi-supervised clustering framework that leverages stochastic variational inference to jointly infer cluster assignments and feature importance weights. This joint formulation enables the identification of discriminative features consistent with the imposed constraints. To robustly handle noisy or inconsistent supervision, BASIL introduces an adaptive constraint-weighting mechanism that down-weights unreliable constraints. Experiments on synthetic and real-world benchmarks demonstrate that our approach achieves competitive clustering performance while improving scalability and interpretability over existing baselines. We further demonstrate applicability to large-scale health data, including medical imaging and electronic health records.},
+  year={2026},
+  month={July},
+  publisher={PMLR},
+  series={Proceedings of Machine Learning Research},
+  note={To appear}
+}
+
+@inproceedings{Wang2026ASMC,
+  selected={true},
+  abbr={ICML},
+  bibtex_show={true},
+  title={Cache Coherent Resampling for Efficient Test Time Scaling in {LLM} Reasoning via Adaptive Sequential Monte Carlo},
+  author={Ke Wang and Zehao Yu and Luwei Wang and Yongchao Huang},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  abstract={Recent work shows that chain based sampling for power shaped trajectory distributions can deliver large test time gains from a fixed base LLM and can approach RL trained reasoners such as GRPO. Deployment is the bottleneck. Autoregressive Metropolis Hastings is inherently serial, limits GPU utilization, and exhibits extreme tail latency at high budgets, reaching p95 [?]s on MATH500 at [?]. We propose Adaptive Sequential Monte Carlo (ASMC), a parallel particle inference method that targets power shaped trajectory distributions while adapting particle populations to problem hardness. To make resampling practical for Transformers, we introduce cache coherent resampling, which realizes ancestry updates by reordering KV caches and other particle bound tensors, avoiding prefix recomputation. On MATH500 at the same budget, ASMC attains [?] exact match accuracy with p95 [?]s, improving the accuracy to tail latency trade off over both sequential MCMC and best of [?]. We further analyze particle degeneracy and find that collapse severity, measured by low [?], strongly predicts failures, while sensitivity to the resampling scheme is limited.},
+  year={2026},
+  month={July},
+  publisher={PMLR},
+  series={Proceedings of Machine Learning Research},
+  note={To appear}
+}
+
+@article{Wang2026BSCC,
+  selected={true},
+  abbr={arXiv},
+  bibtex_show={true},
+  title={Bayesian Supervised Causal Clustering},
+  author={Luwei Wang and Nazir Lone and Sohan Seth},
+  journal={arXiv preprint arXiv:2603.05288},
+  abstract={Finding patient subgroups with similar characteristics is crucial for personalized decision-making in various disciplines such as healthcare and policy evaluation. While most existing approaches rely on unsupervised clustering methods, there is a growing trend toward using supervised clustering methods that identify operationalizable subgroups in the context of a specific outcome of interest. We propose Bayesian Supervised Causal Clustering (BSCC), with treatment effect as outcome to guide the clustering process. BSCC identifies homogenous subgroups of individuals who are similar in their covariate profiles as well as their treatment effects. We evaluate BSCC on simulated datasets as well as real-world dataset from the third International Stroke Trial to assess the practical usefulness of the framework.},
+  year={2026},
+  month={March},
+  url={https://arxiv.org/abs/2603.05288},
+  html={https://arxiv.org/abs/2603.05288},
+  arxiv={2603.05288}
+}
+
 @inproceedings{Wang2025NPBayesMFC,
   selected={true},
   abbr={UAI},
@@ -16,5 +61,7 @@
   series = {Proceedings of Machine Learning Research},
   url={https://proceedings.mlr.press/v286/wang25c.html},
   html={https://proceedings.mlr.press/v286/wang25c.html},
-  code={https://github.com/Demi-wlw/Nonparametric-Bayesian-Multi-Facet-Clustering-for-Longitudinal-Data.git}
+  code={https://github.com/Demi-wlw/Nonparametric-Bayesian-Multi-Facet-Clustering-for-Longitudinal-Data.git},
+  poster={Poster__NPBayes_MultiFacet_Clustering.pdf},
+  slides={Slides__NPBayes_MultiFacet_Clustering.pdf}
 }

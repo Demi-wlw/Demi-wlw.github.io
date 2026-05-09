@@ -4,8 +4,8 @@ title: Projects
 permalink: /projects/
 description: The collection of my projects.
 nav: true
-nav_order: 4
-display_categories: [UoE]
+nav_order: 5
+display_categories: [Research]
 horizontal: false
 ---
 
