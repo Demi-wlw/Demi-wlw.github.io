@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Give a [poster](/assets/pdf/Poster__NPBayes_MultiFacet_Clustering.pdf) presentation at the UAI 2025.
+Give a [poster](/assets/pdf/Poster__NPBayes_MultiFacet_Clustering.pdf) presentation at the UAI 2025 in Rio de Janeiro, Brazil.
