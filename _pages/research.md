@@ -23,6 +23,14 @@ Real-world time series rarely live in a single facet. Patient histories, like mo
 - **Talks.** UAI 2025 poster, [UKAIRS 2025](https://www.ukairs.ac.uk/ukairs-programme/) oral, Joint CDT Conference on AI for Healthcare 2025 oral.
 - **Background reading.** [The real-world data are multi-faceted](/blog/2025/Multi-facet/)
 
+## Scalable Bayesian semi-supervised clustering for health data
+
+Electronic health records are high-dimensional, partially labelled, and noisy, and the most common Bayesian clustering methods either do not scale to them or treat every pairwise constraint as ground truth. My ICML 2026 paper introduces **BASIL**, a scalable Bayesian semi-supervised clustering framework that combines a Hidden Markov Random Field formulation with stochastic variational inference, while jointly learning cluster-specific feature relevance and adaptively down-weighting unreliable supervision. On a 501k-patient UK CPRD cohort, BASIL trains in around an hour and recovers clinically interpretable multimorbidity subgroups, where metric-learning baselines fail to converge in over two days. It remains robust under up to 30% noisy constraints.
+{: .text-justify}
+
+- **Paper.** Scalable Bayesian Semi-supervised Clustering with Feature Selection and Adaptive Constraint Weighting, ICML 2026. *To appear.*
+- **Talks.** ICML 2026 (forthcoming).
+
 ## Disease trajectories in multimorbidity
 
 Multimorbidity, the co-existence of two or more chronic conditions, is increasingly the norm rather than the exception, and care models designed for a single disease break down for these patients. Most existing analyses are cross-sectional. Far fewer take the **temporal order** of disease onset seriously. My MSc dissertation, conducted with the Data Science Unit, used temporal clustering to surface meaningful patterns of how multiple conditions accumulate over time, and to link those patterns to outcomes such as mortality. This thread shapes the longitudinal modelling questions I continue to pursue in the PhD.
@@ -44,7 +52,7 @@ This thread builds on earlier work I did as a research assistant on a Turing-fun
 
 ## Where I'm heading
 
-A common thread runs through all three. I want to build **interpretable models under uncertainty**, models that a domain expert can act on while honestly representing what the data does and does not support. I'm increasingly drawn to causal machine learning as the natural next step, moving from asking *which patients look alike* to asking *which interventions change which patients' trajectories, and why*.
+A common thread runs through these projects. I want to build **interpretable models under uncertainty**, models that a domain expert can act on while honestly representing what the data does and does not support. I'm increasingly drawn to causal machine learning as the natural next step, moving from asking *which patients look alike* to asking *which interventions change which patients' trajectories, and why*. I have also been pulled toward the inference side of large language models. A co-authored **ICML 2026** paper develops Adaptive Sequential Monte Carlo with cache-coherent resampling for training-free LLM test-time scaling, and I am interested in how Bayesian thinking can sharpen reasoning under compute budgets.
 {: .text-justify}
 
 The fastest way to reach me about research is by [email](mailto:luwei.wang@ed.ac.uk).
