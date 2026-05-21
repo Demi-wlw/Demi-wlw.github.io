@@ -10,7 +10,26 @@ nav_order: 1
 I am a PhD candidate in Biomedical AI at the University of Edinburgh, working with [Dr Sohan Seth](https://sohanseth.github.io/) at the [Data Science Unit](https://web.inf.ed.ac.uk/data-science-unit). My research sits at the intersection of **Bayesian modelling**, **unsupervised and causal machine learning**, and **healthcare**. I am particularly interested in longitudinal data, the health trajectories that unfold over years, where the goal is not just prediction but understanding. I want to identify meaningful subgroups of patients, the factors that drive their trajectories, and how interventions move them along.
 {: .text-justify}
 
-Three threads run through my work to date.
+Four threads run through my work to date.
+
+## Scalable, interpretable and robust Bayesian semi-supervised clustering
+
+Real-world tabular and image data are often high-dimensional, only partially labelled, and noisy in unpredictable ways. The most common Bayesian clustering methods either do not scale or treat every pairwise constraint as ground truth. My ICML 2026 paper introduces **BASIL**, a scalable Bayesian semi-supervised clustering framework that combines a Hidden Markov Random Field formulation with stochastic variational inference, while jointly learning cluster-specific feature relevance and adaptively down-weighting unreliable supervision. BASIL trains efficiently on settings ranging from MNIST digit benchmarks to ChestMNIST medical imaging and a 501k-patient UK CPRD multimorbidity cohort, where metric-learning baselines fail to converge in over two days. It remains robust under up to 30% noisy constraints.
+{: .text-justify}
+
+- **Paper.** Scalable Bayesian Semi-supervised Clustering with Feature Selection and Adaptive Constraint Weighting, ICML 2026. *To appear.*
+- **Talks.** ICML 2026 (forthcoming).
+
+## Supervised causal clustering for heterogeneous treatment effects
+
+Clinical trials often report no average benefit when in fact a benefit exists for a specific subpopulation, and unsupervised clustering of patient covariates rarely surfaces those subpopulations cleanly. My recent preprint introduces **Bayesian Supervised Causal Clustering (BSCC)**, a framework that uses individual treatment effect as the outcome guiding the clustering process. BSCC recovers homogeneous subgroups whose members are similar both in their covariate profiles and in how they respond to treatment, giving clinicians and trialists subgroups that are operationalisable rather than merely statistical. I evaluated BSCC on simulated benchmarks and on real-world data from the third International Stroke Trial.
+{: .text-justify}
+
+This thread builds on earlier work I did as a research assistant on a Turing-funded project, where I evaluated supervised metric-based clustering for recovering subphenotypes of critically ill COVID-19 patients under convalescent plasma treatment. That project introduced a "FavorCP" outcome that improved odds-ratio testing across discovered subgroups, and motivated the move to a fully Bayesian, causal formulation in BSCC.
+{: .text-justify}
+
+- **Paper.** [Bayesian Supervised Causal Clustering, arXiv 2026](https://arxiv.org/abs/2603.05288)
+- **Earlier project.** [Supervised Clustering of Critically Ill Patients](/projects/supervisedClust/)
 
 ## Interpretable clustering of multi-faceted time series
 
@@ -23,32 +42,12 @@ Real-world time series rarely live in a single facet. Patient histories, like mo
 - **Talks.** UAI 2025 poster, [UKAIRS 2025](https://www.ukairs.ac.uk/ukairs-programme/) oral, Joint CDT Conference on AI for Healthcare 2025 oral.
 - **Background reading.** [The real-world data are multi-faceted](/blog/2025/Multi-facet/)
 
-## Scalable Bayesian semi-supervised clustering for health data
-
-Electronic health records are high-dimensional, partially labelled, and noisy, and the most common Bayesian clustering methods either do not scale to them or treat every pairwise constraint as ground truth. My ICML 2026 paper introduces **BASIL**, a scalable Bayesian semi-supervised clustering framework that combines a Hidden Markov Random Field formulation with stochastic variational inference, while jointly learning cluster-specific feature relevance and adaptively down-weighting unreliable supervision. On a 501k-patient UK CPRD cohort, BASIL trains in around an hour and recovers clinically interpretable multimorbidity subgroups, where metric-learning baselines fail to converge in over two days. It remains robust under up to 30% noisy constraints.
-{: .text-justify}
-
-- **Paper.** Scalable Bayesian Semi-supervised Clustering with Feature Selection and Adaptive Constraint Weighting, ICML 2026. *To appear.*
-- **Talks.** ICML 2026 (forthcoming).
-
 ## Disease trajectories in multimorbidity
 
 Multimorbidity, the co-existence of two or more chronic conditions, is increasingly the norm rather than the exception, and care models designed for a single disease break down for these patients. Most existing analyses are cross-sectional. Far fewer take the **temporal order** of disease onset seriously. My MSc dissertation, conducted with the Data Science Unit, used temporal clustering to surface meaningful patterns of how multiple conditions accumulate over time, and to link those patterns to outcomes such as mortality. This thread shapes the longitudinal modelling questions I continue to pursue in the PhD.
 {: .text-justify}
 
 - **Project page.** [Clustering Individual Trajectories of Multiple Long-Term Conditions](/projects/clustTrajMLTC/)
-
-## Supervised clustering for heterogeneous treatment effects
-
-Clinical trials often report no average benefit when in fact a benefit exists for a specific subpopulation, and unsupervised clustering of patient covariates rarely surfaces those subpopulations cleanly. My recent preprint introduces **Bayesian Supervised Causal Clustering (BSCC)**, a framework that uses individual treatment effect as the outcome guiding the clustering process. BSCC recovers homogeneous subgroups whose members are similar both in their covariate profiles and in how they respond to treatment, giving clinicians and trialists subgroups that are operationalisable rather than merely statistical. I evaluated BSCC on simulated benchmarks and on real-world data from the third International Stroke Trial.
-{: .text-justify}
-
-This thread builds on earlier work I did as a research assistant on a Turing-funded project, where I evaluated supervised metric-based clustering for recovering subphenotypes of critically ill COVID-19 patients under convalescent plasma treatment. That project introduced a "FavorCP" outcome that improved odds-ratio testing across discovered subgroups, and motivated the move to a fully Bayesian, causal formulation in BSCC.
-{: .text-justify}
-
-- **Paper.** [Bayesian Supervised Causal Clustering, arXiv 2026](https://arxiv.org/abs/2603.05288)
-- **Earlier project.** [Supervised Clustering of Critically Ill Patients](/projects/supervisedClust/)
-- **Forthcoming companion note.** [Comparison on Common Meta-learners for HTE](/blog/)
 
 ## Where I'm heading
 
