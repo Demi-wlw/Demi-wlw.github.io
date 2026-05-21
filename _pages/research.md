@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-I am a PhD candidate in Biomedical AI at the University of Edinburgh, working with [Dr Sohan Seth](https://sohanseth.github.io/) at the [Data Science Unit](https://web.inf.ed.ac.uk/data-science-unit). My research sits at the intersection of **Bayesian modelling**, **unsupervised and causal machine learning**, and **healthcare**. I am particularly interested in longitudinal data, the health trajectories that unfold over years, where the goal is not just prediction but understanding. I want to identify meaningful subgroups of patients, the factors that drive their trajectories, and how interventions move them along.
+I am a PhD candidate in Biomedical AI at the University of Edinburgh, working with [Dr Sohan Seth](https://sohanseth.github.io/) at the [Data Science Unit](https://web.inf.ed.ac.uk/data-science-unit). My research sits at the intersection of **Bayesian modelling**, **semi-supervised and causal machine learning**, and **healthcare**, with a more recent line of work on **efficient inference for large language models**. I am drawn to interpretable methods that recover meaningful subgroups from high-dimensional or longitudinal data, identify the factors that drive those subgroups, and understand how interventions move them along.
 {: .text-justify}
 
 Four threads run through my work to date.
