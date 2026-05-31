@@ -18,6 +18,8 @@ Real-world tabular and image data are often high-dimensional, only partially lab
 {: .text-justify}
 
 - **Paper.** Scalable Bayesian Semi-supervised Clustering with Feature Selection and Adaptive Constraint Weighting, ICML 2026. *To appear.*
+- **Project page.** [BASIL](https://demi-wlw.github.io/BASIL-Scalable-Bayesian-Semi-supervised-Clustering/)
+- **Code.** [GitHub](https://github.com/Demi-wlw/BASIL-Scalable-Bayesian-Semi-supervised-Clustering)
 - **Talks.** ICML 2026 (forthcoming).
 
 ## Supervised causal clustering for heterogeneous treatment effects
